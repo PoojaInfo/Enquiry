@@ -6,4 +6,5 @@ public interface EnquiryServciesI {
 
 public	EnquiryDetails saveData(EnquiryDetails e);
 
+
 }
