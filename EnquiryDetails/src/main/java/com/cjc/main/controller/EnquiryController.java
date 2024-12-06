@@ -19,6 +19,7 @@ public class EnquiryController
 	@PostMapping("/postData")
 	public ResponseEntity<EnquiryDetails> saveData(@RequestBody  EnquiryDetails e)
 	{
+		
 		EnquiryDetails		enquiry	=		esi.saveData(e);
 		return new ResponseEntity<EnquiryDetails>(enquiry,HttpStatus.CREATED);
 		

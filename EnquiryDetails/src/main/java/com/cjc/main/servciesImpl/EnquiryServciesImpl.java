@@ -16,5 +16,6 @@ public class EnquiryServciesImpl implements EnquiryServciesI
 	public EnquiryDetails saveData(EnquiryDetails e) {
 		
 		return repo.save(e);
+		
 	}
 }

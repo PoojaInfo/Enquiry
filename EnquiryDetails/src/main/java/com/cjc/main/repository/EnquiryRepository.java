@@ -8,4 +8,6 @@ import com.cjc.main.model.EnquiryDetails;
 public interface EnquiryRepository extends JpaRepository<EnquiryDetails, Integer>
 {
 
+	
+	
 }
